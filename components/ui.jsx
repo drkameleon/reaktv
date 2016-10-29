@@ -26,6 +26,7 @@ import Select from "./select.jsx";
 import SelectOption from "./selectOption.jsx";
 import Tab from "./tab.jsx";
 import Tabs from "./tabs.jsx";
+import Table from "./table.jsx";
 import Textarea from "./textarea.jsx";
 import Title from "./title.jsx";
 import Toolbar from "./toolbar.jsx";
@@ -53,6 +54,7 @@ export {
     SelectOption,
     Tab,
     Tabs,
+    Table,
     Textarea,
     Title,
     Toolbar,

@@ -10,7 +10,7 @@ import ReactDOM from "react-dom";
 
 import { Button,Buttons,Checkbox,Content,Footer,Form,Header,Icon,
          Input,List,ListItem,Nav,NavItem,Pane,Panes,Radio,RadioOption,
-         Select,SelectOption,Tab,Tabs,Textarea,Title,Toolbar,Window }
+         Select,SelectOption,Tab,Tabs,Table,Textarea,Title,Toolbar,Window }
 from "./components/ui";
 
 ReactDOM.render(
@@ -52,6 +52,37 @@ ReactDOM.render(
                             <RadioOption title="One*"/>
                             <RadioOption title="Two*"/>
                         </Radio>
+                        <Table>
+                            <thead>
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Kind</th>
+                                  <th>File Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td>photon.css</td>
+                                  <td>CSS</td>
+                                  <td>28K</td>
+                                </tr>
+                                <tr>
+                                  <td>photon.css</td>
+                                  <td>CSS</td>
+                                  <td>28K</td>
+                                </tr>
+                                <tr>
+                                  <td>photon.css</td>
+                                  <td>CSS</td>
+                                  <td>28K</td>
+                                </tr>
+                                <tr>
+                                  <td>photon.css</td>
+                                  <td>CSS</td>
+                                  <td>28K</td>
+                                </tr>
+                            </tbody>
+                        </Table>
                     </Form>
                 </Pane>
             </Panes>
