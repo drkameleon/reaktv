@@ -8,9 +8,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Button,Buttons,Content,Footer,
-         Header,Icon,List,ListItem,Nav,NavItem,
-         Pane,Panes,Tab,Tabs,Title,Toolbar,Window }
+import { Button,Buttons,Checkbox,Content,Footer,Form,Header,Icon,
+         Input,List,ListItem,Nav,NavItem,Pane,Panes,Radio,RadioOption,
+         Select,SelectOption,Tab,Tabs,Textarea,Title,Toolbar,Window }
 from "./components/ui";
 
 ReactDOM.render(
@@ -32,13 +32,28 @@ ReactDOM.render(
         </Tabs>
         <Content>
             <Panes>
-                <Pane sidebar>
+                <Pane sidebar small>
                     <Nav title="Navigation">
                         <NavItem>One_</NavItem>
                         <NavItem>Two_</NavItem>
                     </Nav>
                 </Pane>
-                <Pane padded>TWO</Pane>
+                <Pane padded>
+                    <Form>
+                        <Input title="This is an input"/>
+                        <Textarea title="This is a textarea"/>
+                        <Select>
+                            <SelectOption title="One~"/>
+                            <SelectOption title="Two~"/>
+                            <SelectOption title="Three~"/>
+                        </Select>
+                        <Checkbox title="some option"/>
+                        <Radio alias="rad__">
+                            <RadioOption title="One*"/>
+                            <RadioOption title="Two*"/>
+                        </Radio>
+                    </Form>
+                </Pane>
             </Panes>
         </Content>
         <Footer>
